@@ -5,10 +5,6 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    /* padding: 0 10rem; */
-}
-
 .first-section {
     background-color: #1F2937;
 }
@@ -79,6 +75,9 @@ ul {
 }
 
 div .title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -133,4 +132,29 @@ div .title {
 .testimonial h3 {
     margin-right: 54px;
     font-weight: 700;
+}
+
+.cta-banner {
+    margin: 5rem 7rem;   
+    background-color: #3882F6;
+    color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.8rem 0;
+}
+
+.left-info h3, .left-info p {
+    margin: 0;
+}
+
+.right-cta a, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 6px 32px;
+    max-width: 14px;
 }
