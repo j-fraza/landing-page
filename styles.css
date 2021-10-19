@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -19,6 +19,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     color: #F9FAF8;
+    justify-content: flex-start;
 }
 
 ul {
@@ -40,23 +41,22 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 3rem;
-    padding: 5rem;
+    padding: 5rem 11.2rem;
 }
 
 .hero .info {
     width: 400px;
 }
 
-.info h1 {
+.info h1, p {
     margin: 0;
 }
 
 .hero img {
     height: auto;
-    width: 500px;
+    width: 450px;
 }
 
 .hero h1 {
@@ -70,6 +70,7 @@ ul {
     border: none;
     border-radius: 5px;
     padding: 4px 24px;
+    margin-top: 10px;
     color: #fff;
     font-weight: 700;
 }
