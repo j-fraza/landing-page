@@ -41,7 +41,7 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 5rem 11.2rem;
 }
