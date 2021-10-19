@@ -89,7 +89,7 @@ div .title {
     justify-content: center;
     align-items: center;
     gap: 56px;
-    padding: 1rem 0;
+    padding: 1rem 0 6rem 0;
 }
 
 .content h2 {
@@ -112,4 +112,25 @@ div .title {
 .content .text {
     color: #1F2937;
     text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding: 6rem 14rem;
+}
+
+.testimonial h2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.testimonial h3 {
+    margin-right: 54px;
+    font-weight: 700;
 }
